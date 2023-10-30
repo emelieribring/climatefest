@@ -1,0 +1,111 @@
+.learn{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.learnBigBox{
+    display: flex;
+}
+
+.headingLearn, .imgLearn{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.learnBoxes{
+    max-width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.box{
+    width: 30vw;
+    height: 20vh;
+    background-color: chocolate;
+}
+
+
+/*-------------------------------------------------- SECOND PAGE -----------------------------------*/
+
+.tasks{
+    max-width: 100vw;
+    height: 100vh;
+    background-color:darkcyan;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.tasks h1{
+    color: #fff;
+    font-size: 7vw;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+
+.taskBox{
+    width: 60vw;
+    height: 10vh;
+    background-color: darkorange;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+.task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.checkBox{
+    width: 30px;
+    height: 30px;
+    margin-left: 2vw;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.taskSeeds{
+    display: flex;
+    align-items: center;
+}
+
+#seedCount{
+    margin: 1vw;
+}
+
+#seedImg{
+    width: 4vw;
+    height: 4vh;
+    margin: 1vw;
+}
+
+
+/*-------------------------------------------------- SECOND PAGE -----------------------------------*/
+
+
+.FAQ{
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

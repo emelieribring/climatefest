@@ -1,0 +1,81 @@
+.background{
+    max-width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.mainButtonDiv{
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.mainButtonDiv button{
+    width: 20vw;
+    height: 10vh;
+    border-radius: 5px;
+    border: none;
+    background-color: darkmagenta;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+
+.heading, .leo{
+    width: 50vw;
+    height: 70vh;
+    position: relative;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leo{
+    align-items: center;
+}
+
+.headingLeo{
+    display: flex;
+    max-width: 100vw;
+    height: 70vh;
+}
+
+.headingTextHome{
+    font-size: 5vw;
+}
+
+.partners{
+    max-width: 100vw;
+    height: 30vh;
+    background-color: darkgreen;
+    position: relative;
+}
+
+.banner p{
+    font-size: 5vw;
+}
+
+.banner {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scrollBanner 20s linear infinite;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  @keyframes scrollBanner {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
