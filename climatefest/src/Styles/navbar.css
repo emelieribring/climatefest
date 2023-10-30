@@ -14,7 +14,7 @@ nav{
     align-items: center;
 }
 
-nav ul{
+.computer-links ul{
     list-style: none;
     color: #fff;
     display: flex;
@@ -23,7 +23,7 @@ nav ul{
     margin-left: 30px;
 }
 
-nav div img{
+.computer-logo{
     width: 33vw;
     height: 30vh;
     position: relative;
@@ -48,4 +48,47 @@ nav div button{
 
 nav div{
     width: 33vw;
+    display: flex;
+}
+
+.mobile-img{
+    display: none;
+}
+
+
+/* Add these CSS styles for mobile view */
+@media (max-width: 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .buttonDiv {
+        display: none;
+    }
+
+    .computer-links{
+        display: none;
+    }
+
+    .computer-logo{
+        display: none;
+    }
+
+    .mobile-img {
+        display: flex; /* Show the mobile image container */
+        width: 100vw;
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mobile-img img {
+        width: auto; /* Adjust width as needed */
+        height: 50px; /* Set a specific height for the small logo and hamburger icon */
+    }
+
+    .mobile-img img:nth-child(2) {
+        margin-left: 10px; /* Add some spacing between the two images */
+    }
 }
