@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.css": "/climatefest/static/css/main.5f791b8c.css",
-    "main.js": "/climatefest/static/js/main.08880240.js",
+    "main.css": "/climatefest/static/css/main.91759605.css",
+    "main.js": "/climatefest/static/js/main.a4a658ab.js",
     "static/js/787.bc1f9a17.chunk.js": "/climatefest/static/js/787.bc1f9a17.chunk.js",
+    "static/media/BGlearn.jpg": "/climatefest/static/media/BGlearn.22425312e29e984ee78b.jpg",
+    "static/media/climateerboy.png": "/climatefest/static/media/climateerboy.42e18bab5fc36431f321.png",
+    "static/media/Hippo.png": "/climatefest/static/media/Hippo.4bc25656365a10df2880.png",
+    "static/media/bgEarn.jpg": "/climatefest/static/media/bgEarn.00c8c85b820633ca3a7b.jpg",
     "static/media/CFIcon.png": "/climatefest/static/media/CFIcon.5965a718b54444188e55.png",
+    "static/media/Giraffe.png": "/climatefest/static/media/Giraffe.5d18abdb90763c5f1f15.png",
     "static/media/logo.png": "/climatefest/static/media/logo.684dee6b762dcb450f00.png",
-    "static/media/leo.png": "/climatefest/static/media/leo.df9574427a1af3fd67ca.png",
+    "static/media/jungleBG.jpg": "/climatefest/static/media/jungleBG.850491962f60cd590e38.jpg",
+    "static/media/jungle.jpg": "/climatefest/static/media/jungle.59581a1053fda5fdcbca.jpg",
+    "static/media/Adventure.otf": "/climatefest/static/media/Adventure.f9a87e1d974ff5126d98.otf",
     "static/media/seed.png": "/climatefest/static/media/seed.566d0e8b67cbf8b54d44.png",
     "index.html": "/climatefest/index.html",
-    "main.5f791b8c.css.map": "/climatefest/static/css/main.5f791b8c.css.map",
-    "main.08880240.js.map": "/climatefest/static/js/main.08880240.js.map",
+    "main.91759605.css.map": "/climatefest/static/css/main.91759605.css.map",
+    "main.a4a658ab.js.map": "/climatefest/static/js/main.a4a658ab.js.map",
     "787.bc1f9a17.chunk.js.map": "/climatefest/static/js/787.bc1f9a17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f791b8c.css",
-    "static/js/main.08880240.js"
+    "static/css/main.91759605.css",
+    "static/js/main.a4a658ab.js"
   ]
 }
