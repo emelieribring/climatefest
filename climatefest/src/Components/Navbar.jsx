@@ -2,7 +2,7 @@ import React from "react";
 import '../Styles/navbar.css';
 import logo from '../Images/logo.png';
 import smallLogo from '../Images/CFIcon.png';
-import hamLogo from '../Images/hamburger.png';
+import hamLogo from '../Images/hamIcon.png';
 import { NavLink } from 'react-router-dom';
 
 

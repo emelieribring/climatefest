@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import '../Styles/Timer.css';
 
 function CountdownTimer() {
   const targetDate = new Date("2023-12-31T23:59:59").getTime();
@@ -31,8 +32,12 @@ function CountdownTimer() {
   }, []);
 
   return (
-    <div>
-      {timeLeft.days} dagar, {timeLeft.hours} timmar, {timeLeft.minutes} minuter, {timeLeft.seconds} sekunder kvar
+    <div className='timerDiv'>
+      <p className='timer' style={{color: '#fff'}}> <span>{timeLeft.days} </span>  days</p> 
+      <p className='timer' style={{color: '#fff'}}><span>{timeLeft.hours} </span>  hours</p> 
+      <p className='timer' style={{color: '#fff'}}><span>{timeLeft.minutes} </span>  minutes</p>
+      <p className='timer' style={{color: '#fff'}}><span>{timeLeft.seconds} </span>  seconds</p>  
+      <p className='timer' style={{color: '#fff'}}>until plant off</p>
     </div>
   );
 }

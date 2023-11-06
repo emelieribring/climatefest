@@ -1,7 +1,8 @@
 .learn{
     max-width: 100vw;
-    height: 100vh;
-    background-color: aquamarine;
+    height: 270vh;
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 100%), url(../Images/BGlearn.jpg);    
+    background-size: cover;
 }
 
 .learnBigBox{
@@ -10,27 +11,59 @@
 
 .headingLearn, .imgLearn{
     width: 50vw;
-    height: 50vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 100px;
 }
 
-.learnBoxes{
+.imgForm{
+    width: 23vw;
+    height: 60vh;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid #fff;
+}
+
+.imgLearn img{
+    width: 30vw;
+}
+
+.headingLearn h1{
+    color: #fff;
+    width: 30vw;
+    font-family: Adventure;
+    font-size: 5vw;
+}
+
+.headingLearn p{
+    color: #fff;
+    width: 30vw;
+    font-size: 1vw;
+    letter-spacing: 4px;
+}
+
+/*.learnBoxes{
     max-width: 100vw;
     height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
+}*/
 
-.box{
+/*.box{
     width: 30vw;
     height: 20vh;
     background-color: chocolate;
-}
+}*/
 
 
 /*-------------------------------------------------- SECOND PAGE -----------------------------------*/
@@ -38,7 +71,9 @@
 .tasks{
     max-width: 100vw;
     height: 100vh;
-    background-color:darkcyan;
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%), url(../Images/bgEarn.jpg);    
+    background-size: cover;
+    border-top: 1px solid #fff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -58,18 +93,20 @@
 .taskBox{
     width: 60vw;
     height: 10vh;
-    background-color: darkorange;
+    background-color: transparent;
     border-radius: 20px;
     border: 1px solid #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-transform: uppercase;
+    backdrop-filter: blur(10px);
 }
 .task{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
     gap: 2vw;
 }
 
@@ -88,6 +125,7 @@
 
 #seedCount{
     margin: 1vw;
+    color: #fff;
 }
 
 #seedImg{
@@ -108,4 +146,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.FAQ h1{
+    color: #fff;
+    font-size: 5vw;
+    font-family: Adventure;
+}
+
+
+@media (max-width: 768px) {
+    .learn{
+        background-size: contain;
+    }
+
+    .learnBigBox{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headingLearn h1{
+        width: 40vw;
+    }
+
+    .headingLearn p{
+        width: 40vw;
+        font-size: 2vw;
+    }
+
+    .imgForm{
+        width: 50vw;
+    }
+
 }

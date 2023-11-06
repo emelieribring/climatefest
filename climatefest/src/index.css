@@ -7,6 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,4 +24,11 @@ code {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+@font-face {
+  font-family: 'Adventure'; /* Namnet du vill ge din font */
+  src: url('./Fonts/Adventure.otf') format('truetype'); /* Sökvägen till din fontfil */
+  font-weight: normal; /* Vikt och stilinställningar om tillämpligt */
+  font-style: normal;
 }

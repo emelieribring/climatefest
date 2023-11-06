@@ -1,0 +1,39 @@
+.footerBody{
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    background-color: rgb(0, 17, 3);
+    border-top: 1px solid rgb(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerBox{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 15px;
+    border: 0.8px solid beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+    text-align: justify;
+    padding: 20px;
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.9) 100%), url(../Images/jungle.jpg); 
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .footerBody{
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .footerBox{
+        width: 80vw;
+        height: 20vh;
+    }
+
+}

@@ -1,0 +1,52 @@
+.timerDiv{
+    position: absolute;
+    left: 10px;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    left: 400px;
+    width: 100vw;
+}
+
+
+.timer{
+    width: 20vw;
+    font-size: 2vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 22, 5, 0.7);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.timer span{
+    font-size: 3vw;
+    margin-right: 10px;
+    color: #da0000;
+}
+
+@media (max-width: 768px) {
+    .timerDiv{
+        flex-direction: row;
+        left: 0px;
+        top: 20px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    .timer{
+        border: none;
+        border-radius: 10px;
+        width: 15vw;
+    }
+
+    .timer span{
+        margin-right: 0;
+    }
+}

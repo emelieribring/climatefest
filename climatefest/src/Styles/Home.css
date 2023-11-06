@@ -1,7 +1,10 @@
+
+
 .background{
     max-width: 100vw;
     height: 100vh;
-    background-color: teal;
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%), url(../Images/jungleBG.jpg);    
+    background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -20,18 +23,21 @@
     width: 20vw;
     height: 10vh;
     border-radius: 5px;
-    border: none;
-    background-color: darkmagenta;
+    border: 2px solid rgb(255, 255, 255, 0.8);
     color: #fff;
     text-transform: uppercase;
     font-size: 2vw;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 10px rgba(3, 17, 7, 0.8);
+    font-family: Adventure;
 }
 
 .heading, .leo{
     width: 50vw;
-    height: 70vh;
+    height: 80vh;
     position: relative;
-    background-color: crimson;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,20 +47,40 @@
     align-items: center;
 }
 
+.leo img{
+    width: 55vw;
+    top: 150px;
+    right: 100px;
+    position: relative;
+}
+
 .headingLeo{
     display: flex;
     max-width: 100vw;
-    height: 70vh;
+    height: 80vh;
 }
 
 .headingTextHome{
-    font-size: 5vw;
+    font-size: 6vw;
+    font-family: Adventure;
+    color: #fff;
+    position: relative;
+    left: 5vw;
+}
+
+.headingTextHome span{
+    font-size: 3vw;
+}
+
+.headingTextHome span span{
+    font-size: 3vw;
+    color: #da0000;
 }
 
 .partners{
     max-width: 100vw;
-    height: 30vh;
-    background-color: darkgreen;
+    height: 20vh;
+    background-color: rgba(3, 19, 3, 0.5);
     position: relative;
 }
 
@@ -69,6 +95,7 @@
     color: #fff;
     font-size: 24px;
     padding: 10px;
+    max-width: 100vw;
   }
 
   @keyframes scrollBanner {
@@ -88,7 +115,43 @@
     }
 
     .heading, .leo{
+        justify-content: center;
+        gap: 20px;
         width: 100vw;
         height: 50vh;
+        top: 100px;
     }
+
+    .mainButtonDiv{
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainButtonDiv button{
+        width: 80vw;
+        border-radius: 20px;
+        font-size: 6vw;
+        font-family: Adventure;
+    }
+
+    .headingTextHome{
+        font-size: 12vw;
+        left: 45px;
+    }
+
+    .headingTextHome span{
+        font-size: 7vw;
+    }
+
+    .leo img{
+        width: 80vw;
+        top: 30px;
+        right: -80px;
+        position: relative;
+    }
+
+
 }    
+

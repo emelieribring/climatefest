@@ -2,6 +2,8 @@ import React from "react";
 import '../Styles/Learn.css';
 import seed from '../Images/seed.png';
 import AccordionDemo from "./FAQ";
+import giraffe from '../Images/Giraffe.png';
+import hippo from '../Images/Hippo.png';
 
 function Learn() {
     return(
@@ -10,23 +12,33 @@ function Learn() {
           <div className="learnBigBox">
             <div className="headingLearn">
               <h1>Climate Fest</h1>
-              <p>Information about ClimateFest  <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt consequuntur pariatur sunt rem repellendus debitis odio. Suscipit fugiat cupiditate eaque numquam veniam temporibus, adipisci labore officiis, doloribus, ipsum ad.</p>
+              <p>Information about ClimateFest  <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt consequuntur pariatur sunt rem repellendus debitis odio. Suscipit fugiat cupiditate eaque numquam veniam temporibus, adipisci labore officiis, doloribus, ipsum ad. <br /> 
+              <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum voluptates sequi ad. Mollitia perspiciatis nobis sit sint nostrum hic animi voluptatum tempore. Delectus, sapiente laboriosam? Distinctio dolorem quam culpa.</p>
             </div>
             <div className="imgLearn">
-              <img src={seed} alt="seed" style={{ width: '20vw' }} />
+              <div className="imgForm">
+                <img src={giraffe} alt="giraffe" />
+              </div>
             </div>
           </div>
-          <div className="learnBoxes">
-            <div className="box">
-              img and title + link to page
+
+          <div className="learnBigBox">
+            <div className="imgLearn">
+              <div className="imgForm">
+                <img src={hippo} alt="giraffe" />
+              </div>
             </div>
-            <div className="box">
-              img and title + link to page
-            </div>
-            <div className="box">
-              img and title + link to page
+            <div className="headingLearn">
+              <h1>Climate Fest</h1>
+              <p>Information about ClimateFest  <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt consequuntur pariatur sunt rem repellendus debitis odio. Suscipit fugiat cupiditate eaque numquam veniam temporibus, adipisci labore officiis, doloribus, ipsum ad. <br /> 
+              <br />Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum voluptates sequi ad. Mollitia perspiciatis nobis sit sint nostrum hic animi voluptatum tempore. Delectus, sapiente laboriosam? Distinctio dolorem quam culpa.</p>
             </div>
           </div>
+
+          <div className="FAQ">
+            <h1>FAQ</h1>
+            <AccordionDemo/>
+          </div> 
         </div>
 
         <div className='tasks'>
@@ -92,11 +104,6 @@ function Learn() {
             </div>
           </div>
         </div>
-
-        <div className="FAQ">
-            <h1>FAQ</h1>
-            <AccordionDemo/>
-        </div> 
         </>
     )
 } 
